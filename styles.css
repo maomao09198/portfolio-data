@@ -131,3 +131,13 @@ footer span { color:#ff4081; }
   }
   .nav-links.active { transform: translateX(0); }
 }
+
+@media (max-width: 1024px) {
+  .navbar {
+    flex-direction: row; /* keep logo and hamburger horizontal */
+    justify-content: space-between; /* logo left, hamburger right */
+    align-items: center;
+    padding: 1rem;
+  }
+}
+
